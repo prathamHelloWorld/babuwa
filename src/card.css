@@ -1,0 +1,23 @@
+*{
+    padding: 1rem
+}
+.pics{
+    background-color: aqua;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    transition: all .2s ;
+    font-size: .8rem;
+    margin: .15rem;
+}
+.pics:hover{
+    transform: translateY(-2rem) scale(1.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.747);
+}
+.pics:active{
+    transform: translateY(-2rem) scale(1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.747);
+}
+.text{
+    font-size: 1.2rem;
+}
