@@ -5,10 +5,10 @@
     background-color: aqua;
     border-radius: 1rem;
     text-align: center;
-    padding: 2rem;
+    padding: 5rem;
     transition: all .2s ;
     font-size: .8rem;
-    margin: .15rem;
+    margin: .5rem auto;
 }
 .pics:hover{
     transform: translateY(-2rem) scale(1.2);
@@ -20,4 +20,8 @@
 }
 .text{
     font-size: 1.2rem;
+    margin: 0 auto;
+}
+.center{
+
 }
